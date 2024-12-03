@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* background-color: whitesmoke; */
+    /* background:linear-gradient(135deg, #153677, #4e085f) no-repeat ; */
+
+}
+.todoListContainer{
+    width: max-content;
+    padding: 28px;
+    border-radius: 12px;
+    background-color:whitesmoke;
+    margin: 74px auto !important;
+}
+.addToDo {
+    color: #ffffff;
+    /* width: 40px;
+    height: 40px;
+    color: #ffffff !important; */
+}
+input{
+    outline: none;
+}
+.input{
+    position: relative;
+    display: flex;
+    /* gap: 12px; */
+}
+.input input{
+    padding: 9px;
+    border-radius: 29px;
+    width:27vw;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1C325B;
+    border:2px solid #ffffff ;
+
+}
+.addToDo{
+    padding: 12px 23px;
+    background-color: #ff5945;
+    position: absolute;
+    top: 0%;
+    left: 83%;
+    border-radius: 34px;
+}
+/* .todoItems p{
+    padding: 4px;
+    margin-top: 23px;
+    height: 45px;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #1C325B;
+    color: #ffffff;
+} */
+.todoItems p:focus{
+    outline: none;
+    border: none;
+}
+.toDoHeader{
+    text-align: center;
+    padding-bottom: 12px;
+    color:black;
+    font-style: 20px;
+}
+ul {
+    padding:  12px 23px;
+    list-style-type: none;
+    
+    
+}
+ul li{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    font-weight: 500;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center !important;
+    gap: 13px;
+    justify-content: space-between;
+    width: 100%;    
+
+    
+}
+li  input{
+    /* display: block; */
+    /* justify-self: start !important; */
+    /* align-self: center; */
+    accent-color: #ff5945 ;
+    border-radius: 50% !important;
+    /* margin: 0 auto; */
+}
+li div{
+    /* order: 1; */
+    justify-self:flex-end !important;
+
+}
+li img{
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    background-color: #ff5945;
+    border-radius: 10px;
+}
+
